@@ -21,7 +21,7 @@ export default async function Workflow(event: onNewPasswordProvidedEvent) {
 
   if(firstPassword !== "hello")
 
-  invalidateFormField(firstPassword, "The first password is not hello!")
+  invalidateFormField("p_first_password", "The first password is not hello!")
 
 
 }
